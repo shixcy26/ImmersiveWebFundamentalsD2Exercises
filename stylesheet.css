@@ -1,0 +1,88 @@
+body {
+    background-color: #9B9B9B;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+section {
+    display: flex;
+}
+
+#navigation {
+    width: 30%;
+    padding-left: 30px;
+}
+
+#content {
+    width: 60%;
+}
+
+.link {
+    color: red;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.red{
+    background-color: red;    
+    float: right;
+}
+.green{
+    background-color: green;
+    
+}
+.blue{
+    background-color: blue;
+    float:right;
+}
+.services::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.service{
+    background-color: #eee;
+    float: left;
+    width: 29.1%;
+    margin: 1%;
+    padding: auto;
+    text-align: center;
+    height: 200px;
+}
+.content{
+    background-color: #888;
+    margin-top: 20px;
+    padding: 20px;
+}
+.orange{
+    background-color: orange;
+    float: left;
+}
+.yellow{
+    background-color: yellow;
+    float: right;
+}
+.purple{
+    clear: both;
+    background-color: purple;
+    margin: auto;
+}
+.exerciseFlex{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.grey{
+    background-color: grey;
+    margin:10px;
+}
